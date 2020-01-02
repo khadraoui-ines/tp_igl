@@ -11,8 +11,11 @@
 |
 */
 
-Route::get('/','etudiantsController@index');
-/*Route::get('/', function () {
-    return view('index', ['name' => 'James']);
-});*/
-
+Route::get('/', function()
+{
+return View::make('accueil');
+});
+Route::get('affiche','etudiantsController@index');
+Route::get('insererabsences','etudiantsController@abse');
+Route::get('accueil','absencesController@inserer');
+Route::get('affiche','etudiantsController@ab');
