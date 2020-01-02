@@ -11,10 +11,8 @@
 |
 */
 
-//Route::get('/','etudiantsController@index');
-Route::get('/', function()
-{
-return View::make('index');
-});
-Route::get('affiche','etudiantsController@index');
-//Route::get('index','etudiantsController@index');
+Route::get('/','etudiantsController@index');
+/*Route::get('/', function () {
+    return view('index', ['name' => 'James']);
+});*/
+

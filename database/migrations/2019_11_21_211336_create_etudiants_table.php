@@ -20,6 +20,9 @@ class CreateEtudiantsTable extends Migration
             $table->string('lieu_naissance');
             $table->string('groupe');
             $table->timestamps();
+
+
+
         });
     }
 

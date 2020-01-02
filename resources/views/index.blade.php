@@ -1,10 +1,21 @@
-<h1> entrer le groupe </h1>
-<html>
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel11</title>
+
+      
+    </head>
     <body>
-            <form methode="post" action="{{action('etudiantsController@index')}}">   
-            <input type="text"  name ="gr" placeholder="groupe" />
-            <input type="submit" value="afficher"/>
-            </form>
-        
+        <div id="app">
+            <div class="container">
+            <articles>
+
+            </articles>
+        </div>
+        </div>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
