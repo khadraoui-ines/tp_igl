@@ -79,9 +79,14 @@
             <div class="container-fluid">
                 <div id="card" class="card cardshadow-lg p-3 mb-5 bg-white rounded" style="top:-6px;">
                     <svg class="card-image" fill="none" id="svg2" style="position:relative;width:100%;height:550px;" viewbox="0 0 967 460" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-         
+                        <image height="460"
+                        width="400"
+                        x="560"
+                        xlink:href="{{asset('images/ecole.jpg')}}"
+                        y="0"></image>
             <div id="appp">
                 <div class="container">
+
                 <descriptions>
                     <!--component vue-->
                 </descriptions>

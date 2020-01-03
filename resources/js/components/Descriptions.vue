@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top:-500px;">
+  
   <img class="logo" src="school"/>
   <span class="titre" >ESI SCHOOL</span>
   <span style="margin-top:25px;">"ESI School : une application web de gestion de la scolarité ciblant </span>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import school from '../../../public/ecole.jpg'
+
 export default {
 }
 </script>
