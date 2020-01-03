@@ -1,5 +1,5 @@
 <template>
-  
+  <!-- une description des fonctionnalités de l'application ESI SCHOOL -->
   <img class="logo" src="school"/>
   <span class="titre" >ESI SCHOOL</span>
   <span style="margin-top:25px;">"ESI School : une application web de gestion de la scolarité ciblant </span>

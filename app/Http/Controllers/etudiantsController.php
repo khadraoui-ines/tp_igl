@@ -15,7 +15,13 @@ use App\Http\Resources\Etudiant as EtudiantResource;
 
 class etudiantsController extends BaseController
 {
-
+/**
+ * Retourne les details des etudiants d'un groupe
+ *
+ * Retourne : nom, prenom, matricule, date et lieu de naissance de chaque etudiant
+ *
+ * @deprecated
+ */
      public function index ()
      {
            $u=$_SESSION['gro'];
@@ -26,7 +32,13 @@ class etudiantsController extends BaseController
            ->get();
            return EtudiantResource::collection($etudiants);
     }
-
+ /**
+ * Saisie les Absences d'un groupe dans une date
+ *
+ * Retourne la liste des etudiants pour saisir les absences et les sauvegarder dans la BDD
+ *
+ * @deprecated
+ */
     public function abse (Request $request)
     { 
               
@@ -38,7 +50,13 @@ class etudiantsController extends BaseController
            ->get();
             return view('insererabsences', compact('fins'));
     } 
-
+ /**
+ * Affichge de la liste des etudiants d'un groupe
+ *
+ * Retourne la liste des etudiants (nom, prenom, matricule, date et lieu de naissance) d'un groupe
+ *
+ * @deprecated
+ */
     public function ab (Request $request)
     { 
           $gr = request('gr');

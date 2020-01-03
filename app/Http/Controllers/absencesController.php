@@ -11,7 +11,11 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 class absencesController extends BaseController
 {
-     public function inserer (Request $request)
+ /**
+ * Retourner a l'accueil de l'application
+ * @deprecated
+ */
+     public function inserer (Request $request) /*fonction pour le sauvegarde des absences*/
      {
       $e= $_SESSION['etud'];
       $t =request('abs');
@@ -31,7 +35,7 @@ class absencesController extends BaseController
           $module = $f->module;}
       for($j=0;$j<$m;$j++)
       {
-           if($t[$j]=='n') /*inserer l'absence*/
+           if($t[$j]=='n') /*inserer l'absence dans la BDD*/
            {
                $abs = new absence();
                $abs->module =  $module;

@@ -69,7 +69,7 @@
                         <div id="app">
                                 <div class="container">
                                 <tete>
-                                    <!--component vue-->
+                                    <!--component vue pour la description-->
                                 </tete>
                             </div>
                         </div>

@@ -1,0 +1,72 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Laravel",
+        "description": "",
+        "version": "1.0.0"
+    },
+    "host": "http:\/\/localhost",
+    "basePath": "\/",
+    "paths": {
+        "\/api\/etudiants": {
+            "get": {
+                "summary": "Retourne les details des etudiants d'un groupe",
+                "description": "Retourne : nom, prenom, matricule, date et lieu de naissance de chaque etudiant",
+                "deprecated": true,
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "deprecated": false,
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/affiche": {
+            "get": {
+                "summary": "Affichge de la liste des etudiants d'un groupe",
+                "description": "Retourne la liste des etudiants (nom, prenom, matricule, date et lieu de naissance) d'un groupe",
+                "deprecated": true,
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/insererabsences": {
+            "get": {
+                "summary": "Saisie les Absences d'un groupe dans une date",
+                "description": "Retourne la liste des etudiants pour saisir les absences et les sauvegarder dans la BDD",
+                "deprecated": true,
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/accueil": {
+            "get": {
+                "summary": "Retourner a l'accueil de l'application",
+                "description": "",
+                "deprecated": true,
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
