@@ -38,7 +38,7 @@
                 <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionSidebar" id="collapseTwo">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Le groupe:</h6>
-                        <form methode="post" action="{{action('etudiantsController@ab')}}">   
+                        <form methode="post" action="{{action('etudiantsController@ab')}}">
                             <input  type="text"  name ="gr" placeholder="groupe" required/>
                             <input  type="submit" id="affichetab"value="afficher"/>
                             </form>
@@ -51,7 +51,7 @@
                 <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="nbPartitons">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Le groupe:</h6>
-                        <form methode="post" action="{{action('etudiantsController@abse')}}">   
+                        <form methode="post" action="{{action('etudiantsController@abse')}}">
                             <input  type="text"  name ="gr" placeholder="groupe" required/>
                             <input  type="submit"  value="afficher"/>
                             </form>
@@ -65,7 +65,7 @@
         <div class="d-flex flex-column bg-gray-400" id="content-wrapper">
             <div id="content">
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                   
+
                         <div id="app">
                                 <div class="container">
                                 <tete>
